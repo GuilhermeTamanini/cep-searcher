@@ -71,30 +71,32 @@ export default {
         <span class="input-group-text" id="inputGroup-sizing-sm">Siafi</span>
         <input class="form-control" type="text" v-model="endereco.siafi" />
       </div>
-
     </form>
   </div>
 </template>
-<style>
+<style scoped>
+  .container {
+    max-width: 600px;
+  }
 span {
   max-width: 100px;
   width: 60px;
   justify-content: center;
   background-color: #0d6efd;
+  background-color: white;
+  border: none;
+  font-size: 50px;
 }
+
 button {
   max-width: 100px;
-  padding-left: 200px;
 }
-div {
-  flex-direction: row;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 h2 {
   text-align: center;
 }
 #ho {
-  margin-left: 600px;
+  margin-left:230px ;
 }
+
 </style>
